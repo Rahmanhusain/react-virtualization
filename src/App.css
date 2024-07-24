@@ -1,0 +1,26 @@
+/* App.css */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.item-wrapper {
+  height: 120px; /* item height + margin */
+}
+
+.item {
+  height: 100px;
+  margin: 10px 0;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  border: 1px solid #ccc;
+  transition: background 0.3s ease-in-out;
+}
+
+.item:hover {
+  background: #e0e0e0;
+}
